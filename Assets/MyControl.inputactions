@@ -1,0 +1,54 @@
+{
+    "name": "MyControl",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "dd948b34-090c-4272-9833-185effccd155",
+            "actions": [
+                {
+                    "name": "Derecha",
+                    "type": "Button",
+                    "id": "a353afa3-aa13-4e73-b1be-e95b0694739a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Izquierda",
+                    "type": "Button",
+                    "id": "6af2c8a9-2f43-41a8-9b1d-ca4b926a6206",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "8fca7d20-496d-40eb-99ae-6562f4b88b0d",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Derecha",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c33405a7-4173-47a5-8753-ef74847317e6",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Izquierda",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
